@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Netflix sans';
+  src: url('assets/fonts/NetflixSans-Regular.otf') format('opentype'),
+    url('nassets/fonts/NetflixSans-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'Netflix sans', 'Helvetica Neve', 'Arial', 'Poppins', 'Rubik', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
